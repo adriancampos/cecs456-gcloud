@@ -84,7 +84,7 @@ You can always change number of CPUs, number of GPUs, CPU memory, and GPU type a
 
 ### Access your newly created VM
 #### Quick Access
-Instead of installing and setting up the Google Cloud SDK (see [Advanced Access](#Advanced-Access-(optional))), Google lets you perform most commands through their Cloud Shell. Access it at any time by clicking the `Activate Cloud Shell` icon at the top-right of the page:
+Instead of installing and setting up the Google Cloud SDK (see [Advanced Access](#advanced-access-optional)), Google lets you perform most commands through their Cloud Shell. Access it at any time by clicking the `Activate Cloud Shell` icon at the top-right of the page:
 ![](img/cloud-shell.png)
 
 After deploying your VM, you should have been taken to the [Deployment Manager](https://console.cloud.google.com/dm/deployments/) page. If not, go there and select your project.
