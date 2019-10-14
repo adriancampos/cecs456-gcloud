@@ -19,19 +19,19 @@ This tutorial goes through how to set up your own Google Compute Engine (GCE) in
 
 First, if you don't have a Google Cloud account already, create one by going to the [Google Cloud homepage](https://cloud.google.com/) and clicking on the blue **Get started for free** button. If you are not logged into gmail, you will see a page that looks like the one below. Sign into your gmail account or create a new one if you do not already have an account.
 
-![](.img/launching-screen.png)
+![](img/launching-screen.png)
 
 Check the box after you have read the required agreements and press the blue **Continue** button to continue to the next page to enter the requested information (your name, billing address and credit card information). Remember to select "**Individual**" as "Account Type":
 
-![](.img/register-info.png)
+![](img/register-info.png)
 
 Once you have entered the required information, press the blue **Start my free trial** button. You will be greeted by a page like this:
 
-![](.img/welcome-screen.png)
+![](img/welcome-screen.png)
 
 Click the "Google Cloud Platform" (in red circle), and it will take you to the main dashboard:
 
-![](.img/dashboard-screen.png)
+![](img/dashboard-screen.png)
 
 To change the name of your project, click on [**Go to project settings**](https://console.cloud.google.com/iam-admin/settings/project) under the **Project info** section.
 
@@ -65,7 +65,7 @@ Check that you have a default zone and region set under **Compute Engine** > **S
 
 Your configuration sheet should look similar to below:
 
-![](.img/vm-config.png)
+![](img/vm-config.png)
 
 ### Change VM hardware
 
@@ -79,13 +79,13 @@ You can always change number of CPUs, number of GPUs, CPU memory, and GPU type a
 4. Scroll all the way down and click `Save` button.
 5. Start your instance again.
 
-<img src=".img/machine-typ.png" width="50%">
+<img src="img/machine-typ.png" width="50%">
 
 
 ### Access your newly created VM
 #### Quick Access
 Instead of installing and setting up the Google Cloud SDK (see [Advanced Access](#Advanced-Access-(optional))), Google lets you perform most commands through their Cloud Shell. Access it at any time by clicking the `Activate Cloud Shell` icon at the top-right of the page:
-![](.img/cloud-shell.png)
+![](img/cloud-shell.png)
 
 After deploying your VM, you should have been taken to the [Deployment Manager](https://console.cloud.google.com/dm/deployments/) page. If not, go there and select your project.
 
@@ -118,7 +118,7 @@ To ssh into your VM, go to your VM instance details page by clicking on its name
 gcloud compute --project "<YOUR_PROJECT_ID>" ssh --zone "us-west1-b" "<YOUR_VM_NAME>"
 ```
 
-![](.img/connect-to-vm.png)
+![](img/connect-to-vm.png)
 
 
 ### Verification
