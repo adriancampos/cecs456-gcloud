@@ -35,21 +35,6 @@ Click the "Google Cloud Platform" (in red circle), and it will take you to the m
 
 To change the name of your project, click on [**Go to project settings**](https://console.cloud.google.com/iam-admin/settings/project) under the **Project info** section.
 
-<!-- ## Request an increase in GPU quota
-
-Your account typically does not come with GPU quota. You have to explicitly request for it under **IAM Admin** > **Quotas**. Follow the instructions at:
-
-* [General quota instructions](https://cloud.google.com/compute/quotas#requesting_additional_quota)
-
-* [Step-by-step GPU-specific walk-through](https://stackoverflow.com/questions/45227064/how-to-request-gpu-quota-increase-in-google-cloud) (all answers in the link are useful)
-
-**Please request the quota increase ASAP**, because they will take up to a week to process! If you don't have GPU quota, you will have to create a CPU-only VM first and create another GPU VM later, explained in the next section.
-
-FAQ: 
-**_Why don't I see any GPU-related quotas when I follow the instructions to filter for them?_**. 
-Check that you have a default zone and region set under **Compute Engine** > **Settings** > **Region** / **Zone**. Please set these to be `us-west1` and `us-west1-b`, respectively, and then try again. -->
-
-
 
 ## Google Cloud VM Image
 
