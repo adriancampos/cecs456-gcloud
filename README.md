@@ -68,7 +68,16 @@ You can always change number of CPUs, number of GPUs, CPU memory, and GPU type a
 
 
 ### Access your newly created VM
+#### Super Quick Access
+The dashboard now has a button to do everything in the [Quick Access](#quick-access) step for you. This is the easiest way to get to your JupyterLab instance.
+
+Go to the [**AI Platform** > **Notebooks**](https://console.cloud.google.com/ai-platform/notebooks/instances) page. An `OPEN JUPYTERLAB` button Your VM instance will be displayed next to each of your instances. Click it to open a new tab with your JupyterLab instance.
+
+Congrats! JupyterLab is up and running on your gpu-enabled vm. The remaining steps walk through more advanced access.
+
 #### Quick Access
+Note: This yields the same end-result as [Super Quick Access](#super-quick-access), but if for whatever reason that's giving you problems, try this.
+
 Instead of installing and setting up the Google Cloud SDK (see [Advanced Access](#advanced-access-optional)), Google lets you perform most commands through their Cloud Shell. Access it at any time by clicking the `Activate Cloud Shell` icon at the top-right of the page:
 ![](img/cloud-shell.png)
 
